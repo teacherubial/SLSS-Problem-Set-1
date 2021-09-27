@@ -6,5 +6,5 @@
 
 # Introduction
 print("Welcome to QwiZ. 🧐")
-print("You will answer several questions.")
+
 print("Good luck!")
