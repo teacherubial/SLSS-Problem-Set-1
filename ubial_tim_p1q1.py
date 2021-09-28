@@ -10,3 +10,8 @@ import time
 print("Welcome to QwiZ. 🧐")
 time.sleep(2)
 print("Good luck!")
+
+# Create a list of questions
+questions = [
+    ["What is the colour of the sun? ", "yellow"]
+]
