@@ -1,6 +1,7 @@
 # Quiz Creation Activity
 
 import time
+from rich import print
 
 # Quiz has 5 questions the user will answer.
 # It will keep track of score and give
@@ -13,7 +14,7 @@ print("Good luck!")
 
 # Create a list of questions
 questions = [
-    ["What is the colour of the sun? ", "yellow"]
+    ["What is the colour of the [bold italic red]sun[/bold italic red]? ", "yellow"]
 ]
 
 # For each question, print it out and ask the user to answer
