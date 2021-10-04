@@ -15,3 +15,17 @@ print("Good luck!")
 questions = [
     ["What is the colour of the sun? ", "yellow"]
 ]
+
+# For each question, print it out and ask the user to answer
+for question in questions:
+    # Print the question
+    print(question[0])
+
+    # Get the user's answer
+    user_answer = input().lower().strip(",..?!")
+
+    # See if they're correct
+    if user_answer == question[1]:
+        print("YOU GOT IT RIGHT!")
+    else:
+        print("SOWWWWWIE... You DEAD.")
